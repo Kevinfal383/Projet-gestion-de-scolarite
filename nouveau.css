@@ -1,0 +1,170 @@
+body{
+    background: white;
+    /* padding-bottom: 300px; */
+}
+/* -----------------------------------------------------MENU--------------------------------------------------- */
+.menu{
+    margin-top: -160px;
+    display: flex;
+    width: 1250px;
+    background: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    border-radius: 10px;
+    height: 70px;
+}
+.menu font{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-left: 30px;
+}
+.menu #monmenu .niveau1{
+    margin-top: 20px;
+    width: 800px;
+    margin-left: 290px;
+    display: flex;
+    border: 2px solid black;
+}
+.menu #monmenu .niveau1 li a{
+    background: black;
+}
+menu #monmenu .niveau1 li .niveau2 li a{
+    margin-right: 100px;
+}
+#monmenu ul ul {
+    left: 100px; /* la position des sous menu par rapport a leurs menu superieur  */
+}
+
+/* -------------------------------------------------SLIDE--------------------------------------------------------- */
+article{
+    margin-top: 90px;
+    margin-left: 130px; 
+}
+#tete{
+    height: 200px;
+    width: 1100px;
+}
+#bg{
+    height: 200px;
+    width:1100px;
+}
+article .cool button{
+    margin-top: -55px;
+    margin-left: 10px;
+}
+
+/* -----------------------------------------------BLOCK----------------------------------------------------------- */
+.block{
+    display: flex;
+    margin-left: 380px;
+    margin-top: -40px;
+    color: white;
+}
+.unique{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 30px;
+    background: rgb(167, 167, 167);
+}
+.unique:hover{
+    box-shadow: 3px 3px 4px black;
+}
+.unique p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.unique p a{
+    color: white;
+    text-decoration: none;
+}
+.petit{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 30px;
+    background: rgb(167, 167, 167);
+}
+.petit:hover{
+    box-shadow: 3px 3px 4px black;
+}
+.petit p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.petit p a{
+    color: white;
+    text-decoration: none;
+}
+.small{
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    margin-top: -140px;
+    margin-left: 975px;
+    background: rgb(167, 167, 167);
+}
+.small:hover{
+    box-shadow: 3px 3px 4px black;
+}
+.small p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.small p a{
+    color: white;
+    text-decoration: none;
+}
+#matiere{
+    z-index: -1;
+}
+
+/* -----------------------------------------------ENTETE---------------------------------------------------------- */
+.entete{
+    margin-top: 100px;
+    background: none;
+    background: white;
+    border: 1px solid white;
+    z-index: -6;
+}
+.ombre{ 
+    background: none;
+}
+
+/* ------------------------------------------CONNEXION----------------------------------------------------- */
+.connexion2{
+    margin-left: 75px;
+    margin-top: -140px;
+    height: 400px;
+    width: 200px;
+}
+
+/* -----------------------------------------------------CORP------------------------------------------------------ */
+.corp{
+    border: 3px solid black;
+    background : url(background.jpg) top right no-repeat;
+    margin-top: 400px;
+    margin-left: 160px;
+    width: 850px;
+    height: 550px;
+}
+
+/* ------------------------------------------------------PIED--------------------------------------------------- */
+.pied{
+    margin-top: 250px;
+    margin-left: 100px;
+    border: 2px solid black;
+    padding-bottom: 40px;
+    background: black; 
+    color: white; 
+    font-size: 24px; 
+}
+
